@@ -17,6 +17,10 @@
 body {
   background: var(--Light-gray);
   line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   width: 19rem;
@@ -24,9 +28,6 @@ body {
   background: var(--White);
   border-radius: 1rem;
   position: relative;
-  margin-top: 6rem;
-  left: 50%;
-  transform: translate(-50%);
 }
 .qr {
   height: 17rem;
