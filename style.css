@@ -18,9 +18,8 @@ body {
   background: var(--Light-gray);
   line-height: 1.5;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 .container {
   width: 19rem;
